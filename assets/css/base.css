@@ -26,6 +26,16 @@ html {
     padding-right: 5px;
     width: 16.6667%;
 }
+.grid__collum-8{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 66.6667%;
+}
+.grid__collum-4{
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 33.3333%;
+}
 .grid__collum-10{
     padding-left: 5px;
     padding-right: 5px;
@@ -87,10 +97,11 @@ ul{
     border-radius: 6px;
     overflow: hidden;
     animation: growth linear 0.1s ;
-    z-index: 2;
+    z-index: 3;
 }
 
 .btn{
+    
     min-width: 100px;
     height: 30px;
     text-decoration: none;
@@ -205,5 +216,15 @@ ul{
 .pagination-item__icon{
     margin: 0 8px;
     color: #f6a500;
+}
+.no-product{
+    font-size: 2rem;
+    color: var(--text-color);
+    width: 100%;
+    padding: 40px 300px 0px;
+    display: block;
+}
+.hide{
+    display: none;
 }
 
